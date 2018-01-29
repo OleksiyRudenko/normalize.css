@@ -7,16 +7,26 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
+ * 3. Box-sizing (opinionated)
  */
 
 html {
   line-height: 1.15; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  box-sizing: border-box;
 }
 
 /* Sections
    ========================================================================== */
+
+/**
+ * Set default box-sizing for all elements and some pseudo-elements (opinionated)
+ * Based on https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 /**
  * Remove the margin in all browsers (opinionated).
