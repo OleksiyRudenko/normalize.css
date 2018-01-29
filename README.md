@@ -27,6 +27,11 @@ bower install --save normalize-css
 
 See https://cdnjs.com/libraries/normalize
 
+Forked: 
+ * CDN: https://cdn.rawgit.com/OleksiyRudenko/normalize.css/28e3dc36/normalize.css
+ * HTML5 Snippet: 
+   - `<link rel="stylesheet" href="https://cdn.rawgit.com/OleksiyRudenko/normalize.css/28e3dc36/normalize.css">`
+
 **Download**
 
 See https://necolas.github.io/normalize.css/latest/normalize.css
