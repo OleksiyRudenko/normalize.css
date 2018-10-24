@@ -1,5 +1,15 @@
 # normalize.css
 
+A fork of [original normalize.css](https://github.com/necolas/normalize.css).
+
+[./normalize.css](./normalize.css) offers some customizations and is
+merged into forked `gh-pages` with the following command:
+```
+git checkout master normalize.css
+```
+
+---
+
 <a href="https://github.com/necolas/normalize.css"><img
   src="https://necolas.github.io/normalize.css/logo.svg" alt="Normalize Logo"
   width="80" height="80" align="right"></a>
